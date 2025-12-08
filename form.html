@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student form</h1>
+
+    <Form action="" autocomplete="off">
+     <fieldset>
+       <legend>Student Info</legend>
+
+        <label for="sn">Student Name: </label>
+        <input type="text" id="sn" placeholder="Enter Name" name="sname" value="" required autocomplete="off">
+        <br>
+        <br>
+        <label for="pn">Mobile Number:</label>
+        <input type="text" id="pn" placeholder="Enter Number" name="pN" value="" required maxlength="10" autocomplete="off">
+        <label for=""></label>
+        <br>
+        <br>
+        <label for="PS">Enter Password</label>
+        <input type="password" name="spass" id="PS" placeholder="Enter your password" required minlength="6" autocomplete="off">
+        <br>
+        <br>
+        <label for="Sage">Student Age</label>
+        <input type="number" name="age" id="Sage" placeholder="ENter your age" required autocomplete="off">
+        <br>
+        <br>
+        <label for="">Student Email</label>
+        <input type="email" name="semail" id="semail" placeholder="Enter your email"required autocomplete="off">
+        <br>
+        <br>
+        <label for="">Subject</label>
+        <br>
+        <br>
+        <label for="ht">HTML</label>
+        <input type="checkbox" name="html" id="ht" value="html"  >
+        <label for="cs">CSS</label>
+        <input type="checkbox" name="css" id="cs"value="css" >
+        <label for="js">JavaScript</label>
+        <input type="checkbox" name="js" id="js"value="js" >
+        <br>
+        <br>
+        <label for="">Select Gender</label>
+        <br><br>
+        <label for="ml">Male</label>
+        <input type="radio" name="Gender" id="ml" value="Gender1" >
+        <label for="fe">Femail</label>
+        <input type="radio" name="Gender" id="fe"value="Gender2">
+        <label for="ot">Others</label>
+        <input type="radio" name="Gender" id="ot" value="Gender3">
+        <br>
+        <br>
+        <label for="add">Enter your address</label>
+        <br>
+         <textarea name="address" id="add" cols="30" rows="10" placeholder="Enter your address" required></textarea>
+         <br>
+         <br>
+         <label for="dob">Student DOB</label>
+          <input type="date" name="dob" id="dob" required> 
+          <br>
+          <br>
+          <label for="course">course</label>
+          <select name="course" id="course" required>
+          <option value="js">JavaScript</option>
+          <option value="java">java</option>
+          <option value="PY">Phython</option>
+          </select>
+        <br>
+        <br>
+   
+        <button type="submit">Signup</button>
+        <button type="reset">reset</button>
+   
+     </fieldset>
+    </Form>
+</body>
+</html>

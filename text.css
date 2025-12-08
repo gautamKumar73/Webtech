@@ -1,0 +1,22 @@
+h1{
+    color: red;
+    text-align:center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    text-decoration-style:wavy ;
+    text-shadow: -10px -5px 2px rgb(32, 31, 31);
+    
+}
+h2{
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: -10px -5px 1px rgb(55, 55, 58);
+}
+p{
+    font-size: 21px;
+    text-align: justify;
+    word-spacing: 10px;
+    text-indent: 105px;
+    line-height:1.5em;
+}

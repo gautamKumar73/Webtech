@@ -1,0 +1,101 @@
+
+.box1{
+background-color: cadetblue;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box1 >p{
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 3px;
+    
+}
+.box1>h2{
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+}
+.box1>button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    height: 2rem;
+    width: 6rem;
+    transition-duration: 2s;
+}
+.box1>button:hover{
+    background-color: aqua;
+    color: blueviolet;
+    transition-duration: 2s;
+}
+.box1>button:active{
+color: red;
+}
+.box1>ol>li{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.box1>ol>li:nth-child(odd)
+{ 
+    background-color: bisque;
+    color: blue;    
+}
+.box1>ol>li:nth-child(even)
+{
+    background-color: blueviolet;
+    color: red;
+}
+.box1>ol>li:hover{
+    background-color: rgb(43, 226, 73);
+    cursor: pointer;
+}
+.box3>:nth-child(8){
+    color: red;
+}
+.box4>h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+.box4>p{
+    text-indent: 100px;
+    text-align: justify;
+}
+.box4>p::first-letter{
+    font-size: 30px;
+    font-style: italic;
+}
+.box4>p::first-line{
+    font-weight: bold;
+}
+.box4>h1::after{
+    content: "***";
+    color: red;
+}
+.box4>h1::before{
+    content: "***";
+    color: red;
+}
+.box4>p::selection{
+    background-color: green;
+    color: red;
+}
+ul>li::marker{
+    color: red;
+}
+ul>li:nth-child(odd)::marker{
+    color: red;
+}
+ul>li:nth-child(even)::marker{
+    color: blue;
+}
+form>input[type="password"]
+{
+    background-color: rgb(73, 199, 199);
+    color: rgb(248, 233, 17);
+}

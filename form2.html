@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+   <link rel="stylesheet" href="./form2.css">
+   <script src="./form2.js"></script>
+</head>
+<body>
+    <div class="body">
+        <h1 class="h1-1">Student Signup Form</h1>
+        <br>
+         <form action="" id="form">
+            <label for="name">Student Name</label>
+            <br>
+            <input type="text" name="name"  id="name" placeholder="Enter your name" required>
+            <!-- <p id="blank"></p> -->
+            <br>
+            <br>
+            <label for="number">Mobile Number</label>
+            <br>
+            <input type="text" name="number" id="number" placeholder="Enter your Number" required>
+            <br>
+            <br>
+            <label for="sp">Student Password</label>
+            <br>
+            <input type="password" name="sp" id="sp"placeholder="Enter your password" required>
+            <br>
+            <br>
+            <label for="Sage">Student Age</label>
+            <br>
+            <input type="number" name="Sage" id="Sage"placeholder="Enter your age" required>
+            <br>
+            <br>
+             <label for="email">Student Email</label>
+             <br>
+             <input type="email" name="email" id="email" placeholder="Enter your email" required>
+             <br>
+             <br>
+             <label for="">Subject</label>
+             <br>
+             <br>
+             <label for="html">HTML</label>
+             <input type="checkbox" name="html" id="html" value="html">
+             <label for="css">CSS</label>
+             <input type="checkbox" name="css" id="css"value="css">
+             <label for="js">JavaScript</label>
+             <input type="checkbox" name="js" id="js"value="js">
+             <br>
+             <br>
+             <label for="">Gender</label>
+             <br>
+             <br>
+             <label for="gender3">Male</label>
+             <input type="radio" name="gender" id="gender1" required>
+             <label for="">Femail</label>
+             <input type="radio" name="gender" id="gender2" required>
+             <label for="">Others</label>
+             <input type="radio" name="gender" id="gender3" required>
+             <br>
+             <br>
+             <button type="submit" class="btn1" onclick="formValidation()">Signup</button>
+             <button type="reset" class="btn2">Reset</button>
+
+         </form>
+    </div>
+</body>
+</html>

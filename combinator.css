@@ -1,0 +1,49 @@
+.card{
+    background-color: skyblue;
+    height: 200px;
+    width: 300px;
+    
+    
+}
+.card2{
+    background-color: rgb(62, 207, 4);
+    height: 200px;
+    width: 300px;
+}
+.card h1{
+color: green;
+text-align: center;
+}
+.card2 h1{
+    color: rgb(184, 11, 118);
+    text-align: center;
+}
+.card3{
+    background-color: rgb(207, 194, 4);
+    height: 200px;
+    width: 300px;
+}
+.card3 h2{
+    text-align: center;
+    color: rgb(249, 249, 252);
+}
+.card3 .box{
+    background-color: blueviolet;
+    height: 152px;
+    width: 300px;
+}
+.card3 >.box > h2{
+    color: aqua;
+    text-decoration:underline ;
+    text-decoration-style: wavy;
+}
+ul >#l4{
+    font-size: 25px;
+}
+ul>#l4 +li+li{
+  color: rgb(226, 43, 134);
+}
+ul>#l4 ~ li{
+    color: rgb(226, 43, 134);
+    background-color: aqua;
+  }

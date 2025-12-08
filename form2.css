@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(179, 131, 202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.body{
+    background-color: blueviolet;
+    height: 38rem;
+    width: 40rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 1rem;
+}
+.h1-1{
+    color: aqua;
+}
+.btn1{
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    width: 3.5rem;
+    height: 1.5rem;
+    border-radius: 3px;
+    transition: 1s;
+
+}
+.btn1:hover{
+    background-color: rgb(46, 46, 180);
+    color: white;
+    transition: 1s;
+}
+.btn2{
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    width: 3.5rem;
+    height: 1.5rem;
+    border-radius: 3px;
+    transition: 1s;
+}
+.btn2:hover{
+    background-color: rgb(46, 46, 180);
+    color: rgb(235, 8, 8);
+    transition: 1s;
+}
+#name{
+    height: 2rem;
+    width: 18rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    align-items: center;
+    
+}
+#number{
+    height: 2rem;
+    width: 18rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    align-items: center;
+}
+#sp{
+    height: 2rem;
+    width: 18rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    align-items: center;
+}
+#Sage{
+    height: 2rem;
+    width: 18rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    align-items: center;
+}
+#email{
+    height: 2rem;
+    width: 18rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    align-items: center;
+}
+label{
+    font-size: 1rem;
+}

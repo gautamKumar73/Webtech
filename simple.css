@@ -1,0 +1,26 @@
+h1{
+    color: red;
+    text-align: center;
+}
+header{
+    background-color: aqua;
+}
+#simple{
+    color: blue;
+}
+.card{
+    background-color: blueviolet;
+    text-align: center;
+    width: 55px;
+}
+*{
+ font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*group selector */
+h1,h2,p{
+letter-spacing: 5px;
+text-decoration: underline;
+text-decoration-style: wavy;
+
+}
