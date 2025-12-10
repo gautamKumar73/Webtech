@@ -1,0 +1,122 @@
+Creating A card using HTML and CSS
+****************HTML***************
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task.css">
+</head>
+<body>
+    <h1 class="h1">creating a card </h1>
+
+    <div class="card">
+        <div class="fade-img">
+            <img class=""src="./HD-wallpaper-virat-kohli-wali-rcb-jersey-king-kohli-cricketer-thumbnail.webp" alt="">
+
+        </div>
+        <h1>Virat kohli</h1>
+        <h2>india , bangalore</h2>
+        <p>plays for india</p>
+        <button class="btn">Facebook</button>
+        <button class="btn">Facebook</button>
+        <button class="btn">Facebook</button>
+        <button class="btn">Facebook</button>
+        <button class="btn">Facebook</button>
+    </div>
+</body>
+</html>
+
+*****************css*****************************
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h1{
+    text-align: center;
+    color: blueviolet;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 500px;
+    width: 400px;
+    background-color: red;
+    margin-top: 3rem;
+    border-radius: 10px;
+    box-shadow: 10px -5px 8px black;
+    padding: 20px 30px;
+    line-height: 3rem;
+}
+img{
+    height: 8rem;
+    border-radius:50%;
+}
+.fade-img {
+    position: relative;
+    width: 150px;
+}
+
+.fade-img img {
+    width: 100%;
+    display: block;
+}
+
+.fade-img::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background: linear-gradient( transparent, #ff0000);
+}
+
+
+
+.btn{
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-bottom: 0.5rem;
+    height: 2rem;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 7px;
+}
+.card>h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 4px 8px black;
+}
+.card>h2{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.card>p{
+    font-style: italic;
+}
+
