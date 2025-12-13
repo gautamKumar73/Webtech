@@ -1,0 +1,164 @@
+*******Landing page*********
+
+*******html*******
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nature.css">
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">About</a>
+            </li>
+            <li>
+                <a href="">contactus</a>
+            </li>
+            <li>
+                <a href="">help</a>
+            </li>
+        </ul>
+    </div>
+   <div class="title">
+    <h1>Welcome to my nature website</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <button>Get Started</button>
+   </div>
+   <div class="card_list">
+    <div class="card">
+        <div class="child-card1">
+            <img src="./20220728_094437.jpg" alt="">
+        </div>
+        <div class="chals-card2">
+            <h1>Forest</h1>
+            <p>Lorem ipsum dolor sit yes.</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="child-card1">
+            <img src="./20220728_094437.jpg" alt="">
+        </div>
+        <div class="chals-card2">
+            <h1>Forest</h1>
+            <p>Lorem ipsum dolor sit yes.</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="child-card1">
+            <img src="./20220728_094437.jpg" alt="">
+        </div>
+        <div class="chals-card2">
+            <h1>Forest</h1>
+            <p>Lorem ipsum dolor sit yes.</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="child-card1">
+            <img src="./20220728_094437.jpg" alt="">
+        </div>
+        <div class="chals-card2">
+            <h1>Forest</h1>
+            <p>Lorem ipsum dolor sit yes.</p>
+        </div>
+    </div>
+   </div>
+</body>
+</html>
+
+
+*********CSS********
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    align-items: center;
+}
+.nav>ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+a{
+    letter-spacing: 2px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.title{
+    background-color: rgb(42, 136, 105);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.title>h1{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: white;
+}
+.title>p{
+    font-weight: bold;
+    color: white;
+}
+.title>button{
+    height: 2.5rem;
+    width: 6rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card_list{
+    height: calc(100vh - 330px);
+    background-color: rgb(221, 36, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+img{
+    height: 120px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    height:200px;
+    background-color: antiquewhite;
+    width: 250px;
+}
+.chals-card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chals-card2>h1{
+    text-transform: uppercase;
+}
+
