@@ -1,0 +1,122 @@
+Using Grid created Landing Page
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task.css">
+</head>
+<body>
+      <div class="outer">
+        <div class="box" id="box1">
+            <h1>Grid Logo</h1>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>contact</li>
+            </ul>
+
+
+        </div>
+        <!-- <div class="box" id="box2">
+           
+        </div> -->
+        <div class="box" id="box3">
+            <img src="./people-signing-up-or-login-to-online-account-with-user-interface-secure-login-and-password-modern-flat-illustration-vector.webp" alt="">
+        </div>
+        <div class="box" id="box4">
+            <h1>Welcome to my Grid Application</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati molestias, vitae labore, deserunt molestiae nihil sit culpa alias explicabo assumenda illo ipsum odio, atque quo. Rerum eum similique dolores quis facere mollitia odio deleniti molestias.</p>
+            <button>Get Info</button>
+        </div>
+        <div class="box" id="box5">@CopyRights reserved 2026-2030</div>
+        <!-- <div class="box" id="box6">box6</div> -->
+      </div>
+</body>
+</html>
+
+
+**********************CSS*****************************
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+   background-color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 60px 500px 60px;
+    
+}
+.box{
+    padding: 5px;
+    border: 2px solid white;
+}
+#box1{
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    background:linear-gradient(to top,  white,skyblue);
+    
+}
+#box1>ul{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    cursor: pointer;
+    
+}
+#box1>ul>li{
+    font-size: 18px;
+    font-weight: bold;
+}
+#box5{
+    grid-column: span 2;
+}
+#box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    border-left: 1px solid gray;
+}
+#box4>button{
+    height: 2rem;
+    width: 6rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: skyblue;
+    cursor: pointer;
+  
+}
+#box4>h1{
+    text-align: justify;
+}
+#box5{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background:linear-gradient(to top, skyblue, white);
+
+}
+
