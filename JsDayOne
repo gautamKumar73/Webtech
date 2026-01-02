@@ -1,0 +1,58 @@
+console.log("I am external javaScript");
+
+console.log("first")
+var name;
+name="gautam";
+console.log(name);
+var age=23;   // with var keyword redecalaration possible
+console.log(age);
+age=25;
+console.log(age);
+let teamName;
+teamName="CSK";
+console.log(teamName);
+
+let jersyNo;
+jersyNo=07;
+console.log(jersyNo);
+//let jersyNo redeclaration not possible with let keyword
+
+const pin=3.14;
+console.log(pin);
+//In const reinitialization and redeclaration not possible;
+
+
+
+
+<!-- javascript -->
+
+->javascript is one high level programming language.
+->it is used to add functionalities to our web page.
+
+->we can write js code in two ways.
+  1.Internal Js
+  2.External js
+
+<!-- *  Internal Js -->
+->internal js means writing the js code in same HTML file.
+
+how to write:
+ 1.we have to take one script tage and this tag should be placed in side the body tag at the end.
+  eg:  
+  <body>
+  <script>
+   // js code
+  </script>
+  </body>
+  
+
+  <!-- 2.External js -->
+
+  * Writing the js code into seperate file and  then link between the html and js file.
+
+  eg:
+  <script srv"path of the js file"></script>
+
+   
+
+
